@@ -80,7 +80,7 @@ export default function Home() {
               dayLogs: initialLogs,
             });
             setScreen('home');
-          } catch (e) {
+          } catch {
             reset();
             setScreen('welcome');
           }
